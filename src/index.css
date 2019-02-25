@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.pointer{
+  cursor: pointer;
+}
+
+.alert{
+  color: rgb(240, 0, 0);
+}
+
+.alert>input{
+  border-color: rgb(240, 0, 0);
+}
+
+.disabled{
+  cursor: not-allowed;
+}
